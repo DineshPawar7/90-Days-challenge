@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='text-center p-[2rem]'>
       <h1>Simple Counter</h1>
-      <p>simple commit to test</p>
+      <p>simple commit to test 2</p>
       <p>Count: {count}</p>
       <button className='m-1 px-2' onClick={() => setCount(count - 1)}>-</button>
       <button onClick={() => setCount(count + 1)}>+</button>
