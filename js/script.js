@@ -1,31 +1,12 @@
-console.log(x); // ✅ 10
+// reasignation
+
+let a = 34;
+a = 4554;
+
+// let a = 54  //ERROR
 
 
-if (true) {
-    console.log(x); // ✅ 10
+// REVALUATION
 
-  var x = 10;
-  let y = 20;
-console.log(x);
-
-  console.log(y);
-  console.log(y);
-  console.log(y);
-  console.log(y);
-  console.log(y);
-  console.log(y);
-
-}
-console.log(x);
-
-console.log(x);
-
-console.log(x);
-
-console.log(x);
-console.log(x);
-console.log(x);
-console.log(x);
-console.log(x);
-console.log(x);
-console.log(y);
+var b = 34;
+var v = 434;
