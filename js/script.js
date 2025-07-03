@@ -1,11 +1,24 @@
 
 
 
-let score = 78;
 
-let grade = score > 90 ? "A" : score >= 75 ? "B" : socre >= 60 ? "C" : "fail";
+const dt = new Date();
 
-console.log(grade)
+
+console.log(dt.getFullYear())
+
+
+
+
+
+
+
+
+// let score = 78;
+
+// let grade = score > 90 ? "A" : score >= 75 ? "B" : socre >= 60 ? "C" : "fail";
+
+// console.log(grade)
 
 
 
