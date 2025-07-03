@@ -1,13 +1,23 @@
 
 
 
-let a = 0;
+let score = 78;
 
-if (a) {
-    console.log("truthy");
-} else {
-    console.log("falsy")
-}
+let grade = score > 90 ? "A" : score >= 75 ? "B" : socre >= 60 ? "C" : "fail";
+
+console.log(grade)
+
+
+
+
+
+// let a = 0;
+
+// if (a) {
+//     console.log("truthy");
+// } else {
+//     console.log("falsy")
+// }
 
 
 
