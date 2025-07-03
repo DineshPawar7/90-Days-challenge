@@ -1,11 +1,43 @@
 
 
 
+let a = 0;
+
+if (a) {
+    console.log("truthy");
+} else {
+    console.log("falsy")
+}
 
 
 
 
 
+
+
+
+
+
+
+// let temp = 35;
+// if (!(temp < 30)) {
+//     console.log("hot");
+// } else {
+//     console.log("cold")
+// }
+
+
+
+
+// let a = 12
+
+// a = 23
+// b = 1
+
+// console.log(a+b)
+
+// let a = 12 === 12
+// console.log(a)
 
 
 
