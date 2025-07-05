@@ -2,27 +2,53 @@
 
 
 
+
+
+switch (3) {
+  case 1:
+    console.log("one");
+    break;
+  case 2:
+    console.log("two");
+    break;
+  case 3:
+    console.log("three");
+    break
+  case 4:
+    console.log("four");
+    break;
+  default:
+    console.log("default");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(1>2) {
+//     console.log("false")
+// } else {
+//     console.log("true")
+// }
+
 // const dt = new Date();
 
-
 // console.log(dt.getFullYear())
-
-
-
-
-
-
-
 
 // let score = 78;
 
 // let grade = score > 90 ? "A" : score >= 75 ? "B" : socre >= 60 ? "C" : "fail";
 
 // console.log(grade)
-
-
-
-
 
 // let a = 0;
 
@@ -32,25 +58,12 @@
 //     console.log("falsy")
 // }
 
-
-
-
-
-
-
-
-
-
-
 // let temp = 35;
 // if (!(temp < 30)) {
 //     console.log("hot");
 // } else {
 //     console.log("cold")
 // }
-
-
-
 
 // let a = 12
 
@@ -62,12 +75,6 @@
 // let a = 12 === 12
 // console.log(a)
 
-
-
-
-
-
-
 // //Object Copy Behavior (Reference vs Value)
 // let a = 5;
 // let b = a;
@@ -75,13 +82,6 @@
 
 // console.log(a);
 // console.log(b)
-
-
-
-
-
-
-
 
 // // Reference Types – Object & Array
 // let person = {
@@ -95,10 +95,6 @@
 // console.log(typeof numbers)
 
 // console.log(Array.isArray(numbers))
-
-
-
-
 
 // let num = 100;
 // let str = "hello";
@@ -119,8 +115,6 @@
 // console.log(typeof big);   // bigint
 // console.log(typeof sym);   // symbol
 
-
-
 // // Re-declaration vs Re-assignment
 // var x = 5;
 // var x = 10;
@@ -128,10 +122,6 @@
 // let y = 15;
 
 // const z = 25;
-
-
-
-
 
 // //Scope Difference
 // function tetVarLetConst() {
@@ -145,12 +135,6 @@
 //     console.log(c)
 // }
 
-
-
-
-
-
-
 // function dinu(str) {
 //     return str.split('').reverse().join('');
 
@@ -160,12 +144,6 @@
 // const reversed = dinu(input);
 // console.log(reversed)
 
-
-
-
-
-
-
 // // reasignation
 
 // let a = 34;
@@ -173,11 +151,7 @@
 
 // // let a = 54  //ERROR
 
-
 // // REVALUATION
 
 // var b = 34;
 // var v = 434;
-
-
-
