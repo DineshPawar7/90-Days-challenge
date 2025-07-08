@@ -2,24 +2,46 @@
 
 
 
+function rps(user, computer) {
+  if(user === computer) return "drow";
+  if(user === "rock" && computer === "scissors") return "user wins"
+  if(user === "scissors" && computer === "paper") return "user wins"
+  if(user === "paper" && computer === "rock") return "user wins"
 
+  return"computer wins";
 
-switch (3) {
-  case 1:
-    console.log("one");
-    break;
-  case 2:
-    console.log("two");
-    break;
-  case 3:
-    console.log("three");
-    break
-  case 4:
-    console.log("four");
-    break;
-  default:
-    console.log("default");
 }
+
+
+
+rps("rock", "scissors");
+
+
+
+
+
+
+
+
+
+
+
+// switch (3) {
+//   case 1:
+//     console.log("one");
+//     break;
+//   case 2:
+//     console.log("two");
+//     break;
+//   case 3:
+//     console.log("three");
+//     break
+//   case 4:
+//     console.log("four");
+//     break;
+//   default:
+//     console.log("default");
+// }
 
 
 
