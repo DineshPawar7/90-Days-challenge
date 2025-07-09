@@ -1,20 +1,135 @@
 
 
 
+// // 1. print number 1 to 10
+// for(let i = 1; i<11;i++) {
+//   console.log(i)
+// }
 
-function rps(user, computer) {
-  if(user === computer) return "drow";
-  if(user === "rock" && computer === "scissors") return "user wins"
-  if(user === "scissors" && computer === "paper") return "user wins"
-  if(user === "paper" && computer === "rock") return "user wins"
 
-  return"computer wins";
 
+// //2. peint number 10 to 0 usng while
+// let i = 10
+// while(i>0){
+//   console.log(i)
+//   i--
+// }
+
+
+
+// // even numbers
+// for(let i = 1; i<21; i++){
+//   if(i%2 === 0){
+//     console.log(i)
+//   }
+// }
+
+
+
+
+// let i = 1;
+// while(i<16) {
+//   if(i%2 === 1){
+//     console.log(i)
+//   }
+// i++
+// }
+
+
+
+let sum = 0
+
+for(let i =1; i<101; i++) {
+    sum = sum + i
 }
 
+console.log("Sum of 1 to 100 is:", sum)
 
 
-rps("rock", "scissors");
+
+
+
+
+
+// for(let i = 1; i<201; i++) {
+//   if(i === 32) {
+//     continue
+//   } 
+//   console.log(i)
+//   }
+
+
+
+
+
+
+
+
+
+
+
+// let i = 1;
+// do {
+// console.log(i)
+// i++
+// }
+
+// while(i<20)
+
+
+
+
+
+// let i = 1;
+
+// while(i<32) {
+//   console.log(i)
+//   i++
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for(let i = 1; i<101; i++) {
+//   console.log("print:", i)
+// }
+
+
+
+
+
+
+
+
+
+// function rps(user, computer) {
+//   if(user === computer) return "drow";
+//   if(user === "rock" && computer === "scissors") return "user wins"
+//   if(user === "scissors" && computer === "paper") return "user wins"
+//   if(user === "paper" && computer === "rock") return "user wins"
+
+//   return"computer wins";
+
+// }
+
+
+
+// rps("rock", "scissors");
 
 
 
