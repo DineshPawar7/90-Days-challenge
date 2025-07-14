@@ -1,9 +1,41 @@
 
 
+let str = "hello "
+let num = 42;
+let isActive = true;
+let undefinedValue;
+let nullValue = null;
+let obj = { name: "dinesh"};
+let arr = [1, 2, 3];
+
+console.log(typeof str, typeof num, typeof isActive, typeof undefinedValue, typeof nullValue, typeof obj, typeof arr);
 
 
 
 
+
+
+
+
+
+
+// let course = "javascript"
+// course = "advance js"
+// course = "advance js2"
+
+
+// console.log(course)
+
+
+
+
+
+
+// let userName = "Dinesh";
+// const age = 23;
+// var country = "india";
+
+// console.log("user", userName, "| Age", age, "| country:", country)
 
 
 
@@ -46,13 +78,13 @@
 
 
 
-let sum = 0
+// let sum = 0
 
-for(let i =1; i<101; i++) {
-    sum = sum + i
-}
+// for(let i =1; i<101; i++) {
+//     sum = sum + i
+// }
 
-console.log("Sum of 1 to 100 is:", sum)
+// console.log("Sum of 1 to 100 is:", sum)
 
 
 
