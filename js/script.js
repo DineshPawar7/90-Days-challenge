@@ -1,12 +1,88 @@
 
 
-for(let i = 1; i<101; i++) {
+
+
+
+
+
+//print (5, 10, 15, ... 50)
+
+for(let i = 5; i<51; i+=5)
     console.log(i)
-    if (i % 8 === 0) {
-        break;
-    }
+
+
+
+// for (let i = 1; i <= 15; i+=2) {
+//     console.log(i)
+// }
+
+
+
+
+// //reverted to previous version
+// for(let i = 10; i>0; i--) {
+//     console.log(i)
+// }
+
+
+
+
+
+
+// //1 to 20 even only
+// for(let i = 1; i <= 20; i++) {
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
+
+
+
+
+
+
+// //1 to 10 print
+// for(let i = 1; i <= 10; i++){
+//     console.log(i)
+// }
+
+
+
+
+
+// let count = 0;
+// for(let i = 1; i<101; i++) {
+//     if(i%2 === 1) {
+//         count++;
+//         console.log(i)
+//     }
+
+//     if(count === 5) break
+// }
+
+
+
+
+
+
+
+// for(let i = 1; i < 21; i++) {
+//     if(i%3 === 0) continue;
+//     console.log(i)
+// }
+
+
+
+
+
+
+// for(let i = 1; i<101; i++) {
+//     console.log(i)
+//     if (i % 8 === 0) {
+//         break;
+//     }
     
-}
+// }
 
 
 
