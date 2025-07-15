@@ -1,14 +1,31 @@
 
 
-let str = "hello "
-let num = 42;
-let isActive = true;
-let undefinedValue;
-let nullValue = null;
-let obj = { name: "dinesh"};
-let arr = [1, 2, 3];
+for(let i = 1; i<101; i++) {
+    console.log(i)
+    if (i % 8 === 0) {
+        break;
+    }
+    
+}
 
-console.log(typeof str, typeof num, typeof isActive, typeof undefinedValue, typeof nullValue, typeof obj, typeof arr);
+
+
+
+
+
+
+
+
+
+// let str = "hello "
+// let num = 42;
+// let isActive = true;
+// let undefinedValue;
+// let nullValue = null;
+// let obj = { name: "dinesh"};
+// let arr = [1, 2, 3];
+
+// console.log(typeof str, typeof num, typeof isActive, typeof undefinedValue, typeof nullValue, typeof obj, typeof arr);
 
 
 
